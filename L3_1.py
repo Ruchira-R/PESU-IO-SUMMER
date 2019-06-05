@@ -1,0 +1,5 @@
+c=input("Enter a list of numbers seperated by commas : ").split(",")
+l = list(map(int,c))
+t=tuple(l)
+print(l)
+print(t)
